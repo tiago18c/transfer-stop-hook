@@ -40,3 +40,9 @@ These instructions allow for dynamic control over token transferability without 
 
 - This is a proof of concept and may require further security audits for production use.
 - Ensure proper access controls for modifying the metadata extension flag.
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
