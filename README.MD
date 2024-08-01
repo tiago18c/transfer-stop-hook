@@ -11,6 +11,15 @@ This project demonstrates a proof of concept for a Solana transfer hook that dis
 - Dynamic transfer disabling based on metadata flag ("disable-transfers")
 - No extra PDAs needed to store the current transferability state
 
+## Future Improvements
+
+Once [PR #7099](https://github.com/solana-labs/solana-program-library/pull/7099) in the Solana Program Library is merged and deployed to mainnet, this implementation can be further simplified:
+
+- The extra account metas will no longer be required.
+- This will reduce the complexity of clients, providing some backwards compatibility
+
+
+
 ## How It Works
 
 1. The mint's metadata extension includes a boolean flag indicating whether transfers are allowed.
